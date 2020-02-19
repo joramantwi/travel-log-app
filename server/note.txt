@@ -1,0 +1,19 @@
+*Server* Directory is where all our Server 
+code is stored. Here are all the dependencies stored in server dir:
+
+base dependecies
+#npm i express cors morgan helmet
+
+express - Server
+cors - for seperate backend and frontend 
+morgan - for logging
+helmet - this middleware use for secure headers 
+
+dev dependecies 
+#npm i-D eslint nodemon 
+
+*src* is where all the sourcecode is contained.
+
+index.js - express app is created here 
+
+(mongoose is an orm for talking to MongoDB )
