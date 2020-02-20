@@ -17,3 +17,9 @@ dev dependecies
 index.js - express app is created here 
 
 (mongoose is an orm for talking to MongoDB )
+
+-- Front end ----
+
+Client Directory contain all react dependecies, automatically created
+using command npx create-react-app client 
+(npx allows you to)
