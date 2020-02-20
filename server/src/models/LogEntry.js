@@ -7,7 +7,7 @@ const requiredNumber = {
   required: true,
 };
 
-const logEntrySchema = new Schema({
+const logEntrySchema = mongoose.Schema({
   title: {
     type: String,
     required: true,
